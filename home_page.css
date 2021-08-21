@@ -6,6 +6,7 @@ body{
     margin: auto;
     display: flex;
     flex-flow: row wrap;
+    overflow-x: hidden;
 }
 .navbar {
     width: 100%;
@@ -88,12 +89,12 @@ body{
 }
 .main{
     width: 50%;
-    height: 800px;
+    height: 650px;
     background-color: white;
     text-align: center;
 }
 .main_content{
-    margin: 10% 15%;
+    margin: 5% 15%;
     margin-top: 20%;
 }
 .main_content>h1{
@@ -107,7 +108,7 @@ body{
 }
 .main_img{
     width: 50%;
-    height: 800px;
+    height: 650px;
 }
 .text-bg-img{
     background-image: url("https://sharp.services.greenhouse.io/production/Greenhouse-two-women-working.jpg?auto=format&fit=max&lossless=true&q=90&w=1440&s=56dd4a45251371f84b0d1f862d91697baf5c9660705e5170a06eb73b1d9659e6");
@@ -119,12 +120,11 @@ body{
 }
 .main_img-text{
     width: 350px;
-    height: 350px;
+    height: 300px;
     background-color: white;
     border-radius: 10px;
     margin-left: 10%;
-    margin-top: 35%;
-    padding:20px 10px;
+    margin-top: 30%;
 }
 .main_img-text>h2{
     font-size: 30px;
@@ -184,7 +184,7 @@ button{
     padding-top: 15px;
 }
 .img{
-    height: 1000px;
+    height: 950px;
 }
 .input-see{
     width: 300px;
@@ -196,7 +196,7 @@ button{
     margin-right: 25%;
 }
 .main_size{
-    height: 650px;
+    height: 600px;
 }
 .logo-box{
     width: 49%;
