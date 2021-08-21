@@ -347,4 +347,7 @@ margin-top:80px;
             .clear{
                 clear:both;
             }
+            body{
+                overflow-x:hidden;
+            }
             
