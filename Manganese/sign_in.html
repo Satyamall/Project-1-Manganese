@@ -28,7 +28,7 @@
             height: 50px;
             border: 2px solid gray;
             border-radius: 10px;
-            padding-left: 20px;
+            padding-left: 3%;
             font-size: 20px;
         }
         .button-row{
@@ -43,16 +43,15 @@
             font-size: 17px;
         }
         .button-row>p{
-            margin-left: 40px;
+            margin-left: 5%;
             font-size: 20px;
         }
         .button-row>a{
-            margin-left: 30px;
+            margin-left: 5%;
             border: 1px solid gray;
             border-radius: 5px;
             text-decoration: none;
             color: black;
-            padding-bottom: 10px;
             text-align: center;
         }
         @media screen and (min-width: 1000px) {
@@ -64,10 +63,14 @@
         @media screen and (max-width: 800px) {
             .main-box{
                 flex: 1;
-                position: static;
+                position: sticky;
             }
-            .main-left,.main-right{
+            .main-right{
                 width: 100%;
+            }
+            .main-left{
+                width: 0%;
+                position: fixed;
             }
             .button-row{
                 height: 50px;
