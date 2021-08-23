@@ -36,7 +36,7 @@ body{
 #logo {
   margin-top: 10px;
   margin-bottom: 10px;
-  margin-left: 30px;
+  margin-left: 3%;
 }
 #logo img {
    height: 30px;
@@ -44,16 +44,16 @@ body{
 }
 /*navbar: list*/
 .nav-a{
-    padding-left: 20px;
+    padding-left: 2%;
     display: inline-block;
     text-decoration: none;
     color: black;
     font-size: 17px;
 }
 .sign-in{
-    margin-left: 250px;
+    margin-left: 18%;
     margin-right: 20px;
-    width: 110px;
+    width: 8%;
     height: 30px;
     border: 1px solid black;
     border-radius: 30px;
@@ -65,7 +65,7 @@ body{
     padding-top: 10px;
     margin-top: 10px;
     /* cursor: pointer; */
-    transition: 0.5s;
+    /* transition: 0.5s; */
     position: relative;
     overflow: hidden;
 }
@@ -77,24 +77,24 @@ body{
     height: 0%;
     background-color: teal;
     z-index: -1;
-    transition: 0.5s;
+    transition: 0.2s;
     top: 0;
  }
  .sign-in:hover::before{
      height: 100%;
  }
 .search{
-    margin-left: 20px;
+    margin-left: 1%;
     margin-top: 15px;
 }
 .main{
     width: 50%;
-    height: 650px;
+    height: 720px;
     background-color: white;
     text-align: center;
 }
 .main_content{
-    margin: 5% 15%;
+    margin: 5% 18%;
     margin-top: 20%;
 }
 .main_content>h1{
@@ -108,7 +108,7 @@ body{
 }
 .main_img{
     width: 50%;
-    height: 650px;
+    height: 720px;
 }
 .text-bg-img{
     background-image: url("https://sharp.services.greenhouse.io/production/Greenhouse-two-women-working.jpg?auto=format&fit=max&lossless=true&q=90&w=1440&s=56dd4a45251371f84b0d1f862d91697baf5c9660705e5170a06eb73b1d9659e6");
@@ -120,15 +120,15 @@ body{
 }
 .main_img-text{
     width: 350px;
-    height: 300px;
+    height: 280px;
     background-color: white;
     border-radius: 10px;
     margin-left: 10%;
-    margin-top: 30%;
+    margin-top: 35%;
 }
 .main_img-text>h2{
     font-size: 30px;
-    padding: 20px;
+    padding: 10px 20px;
 }
 .main_img-form{
     padding: 0px 20px;
@@ -138,7 +138,7 @@ body{
     height: 40px;
     border: 1px solid black;
     border-radius: 10px;
-    margin-top: 10px;
+    margin-top: 5px;
 }
 .main-button-demo{
     width: 180px;
@@ -168,6 +168,7 @@ button{
     border-bottom: 1px solid black;
     text-align: left;
     padding-bottom: 20px;
+    background-color: transparent;
 }
 .input-rec{
     width: 250px;
@@ -177,7 +178,7 @@ button{
     background-color: rgb(20, 102, 102);
     color: white;
     font-size: 20px;
-    margin-right: 35%;
+    margin-right: 30%;
     display: inline-block;
     text-decoration: none;
     color: white;
@@ -193,7 +194,7 @@ button{
     background-color: rgb(20, 102, 102);
     color: white;
     font-size: 20px;
-    margin-right: 25%;
+    margin-right: 20%;
 }
 .main_size{
     height: 600px;
@@ -218,7 +219,7 @@ button{
     background-color: rgb(20, 102, 102);
     color: white;
     font-size: 20px;
-    margin-right: 40%;
+    margin-right: 35%;
 }
 .box-demo{
     width: 100%;
@@ -372,5 +373,14 @@ button{
     }
     .content-7{
         padding-left: 20px;
+    }
+    #logo img{
+        height: 20px;
+    }
+    .nav-a{
+        font-size: 10px;
+    }
+    .sign-in{
+        margin-left: 1%;
     }
 }
