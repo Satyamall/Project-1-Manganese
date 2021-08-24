@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign In</title>
+    <style>
+        .main-box{
+            width: 100%;
+            margin: auto;
+            display: flex;
+        }
+        .main-left{
+            width: 50%;
+            background-color: #efefef;
+        }
+        .main-right{
+            width: 50%;
+            margin-left: 10%;
+            margin-top: 10%;
+        }
+        .main-right>h1{
+            font-size: 60px;
+        }
+        .form>input{
+            width: 400px;
+            height: 50px;
+            border: 2px solid gray;
+            border-radius: 10px;
+            padding-left: 3%;
+            font-size: 20px;
+        }
+        .button-row{
+            display: flex;
+            margin-top: 20px;
+        }
+        .button-row>button{
+            width: 150px;
+            border-radius: 30px;
+            background-color: #008561;
+            color: white;
+            font-size: 17px;
+        }
+        .button-row>p{
+            margin-left: 5%;
+            font-size: 20px;
+        }
+        .button-row>a{
+            margin-left: 5%;
+            border: 1px solid gray;
+            border-radius: 5px;
+            text-decoration: none;
+            color: black;
+            text-align: center;
+        }
+        @media screen and (min-width: 1000px) {
+            .main-box{
+                flex: 2;
+                position: fixed;
+            }
+        }
+        @media screen and (max-width: 800px) {
+            .main-box{
+                flex: 1;
+                position: sticky;
+            }
+            .main-right{
+                width: 100%;
+            }
+            .main-left{
+                width: 0%;
+                position: fixed;
+            }
+            .button-row{
+                height: 50px;
+            }
+            .button-row>a{
+                height: 50px;
+                width: 200px;
+            }
+        }
+    </style>
+</head>
+<body>
+   <div class="main-box">
+         <div class="main-left">
+            <img src="https://www.greenhouse.io/assets/img/botanical/prefooter-image3@2x.png">
+         </div>
+         <div class="main-right">
+            <img src="https://recruiting.cdn.greenhouse.io/assets/sessions/iconGhr-1c2d6912fc5ac82cd13440cfd8567bfc40d3eeb243cbcd80042e3920e490635f.png">
+            <h1>Let's start <br> hiring.</h1>
+            <form class="form">
+                <input type="email" value="Email">
+            </form>
+            <div class="button-row">
+                <button>Next</button>
+                <p>or</p>
+                <a href="https://accounts.google.com/o/oauth2/auth/oauthchooseaccount?access_type=online&client_id=594601915089-rrls6ibr90n1ehrtvkfcoldipllj1r5d.apps.googleusercontent.com&redirect_uri=https%3A%2F%2Foauth-redirector.services.greenhouse.io%2Fintegrations%2Foauth%2Fcreate&response_type=code&scope=https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile&state=bf05d90c99b8a67f4cbdc13ce65eb33b83edc305ee24037e&flowName=GeneralOAuthFlow"><img src="https://www.bing.com/th?id=OIP.VEm0V7-K-_BWB9d7ek5gyAHaHa&w=93&h=106&c=8&rs=1&qlt=90&o=6&dpr=1.5&pid=3.1&rm=2" style="width: 50px; height: 40px; float: left; margin-top: 5px;"><p style="float: left; margin-left: 10px;">Sign in with Google</p></a>
+            </div>
+         </div>
+   </div>
+</body>
+</html>
