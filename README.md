@@ -19,6 +19,7 @@ View Project: <a href="https://satyamall.github.io/Project-1-Manganese-Clone-Gre
 
 # Pictorial View of Project:
 ![Screenshot (360)](https://user-images.githubusercontent.com/80479635/161207528-d8363e99-e953-49e5-b0c9-e7b7a2e2c31f.png)
+![Screenshot (361)](https://user-images.githubusercontent.com/80479635/161208682-0f05ad67-8470-4e83-b3b0-8c0508a479ec.png)
 ![Screenshot (362)](https://user-images.githubusercontent.com/80479635/161208120-63522e19-d91c-4d8a-a25d-83f220e38105.png)
 ![Screenshot (363)](https://user-images.githubusercontent.com/80479635/161208155-0bfdacd7-f4ce-4649-989f-83a2f0381ef3.png)
 ![Screenshot (364)](https://user-images.githubusercontent.com/80479635/161208074-259c87de-9fa6-4995-927c-7dc3ed5dfc59.png)
